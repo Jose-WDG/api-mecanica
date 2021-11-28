@@ -29,7 +29,7 @@ Api-rest usando Spring data jpa e sqLite
     }
 ]
 
-> Criar orçamentos[BodyParam-JSON][POST]: http://localhost:8080/orcamento/orcamentos
+> Criar orçamentos[BodyParam-JSON][POST]: http://localhost:8080/orcamento/novo
 	*exemplo:
 >
 >> {
