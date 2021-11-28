@@ -6,7 +6,9 @@ Api-rest usando Spring data jpa e sqLite
 ## **Rotas** 
 
 > Listar orçamentos[GET]: http://localhost:8080/orcamento/orcamentos
-	*exemplo:[
+	*exemplo:
+>
+>> [
     {
         "codigo": 0,
         "valorTotal": 100.0,
@@ -28,7 +30,9 @@ Api-rest usando Spring data jpa e sqLite
 ]
 
 > Criar orçamentos[BodyParam-JSON][POST]: http://localhost:8080/orcamento/orcamentos
-	*exemplo:{
+	*exemplo:
+>
+>> {
    "valorTotal": 250.03,
    "data": "1998-11-27",
    "observacoes": "Zé roela"
