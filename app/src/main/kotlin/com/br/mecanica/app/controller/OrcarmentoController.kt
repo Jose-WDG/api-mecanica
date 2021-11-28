@@ -15,9 +15,6 @@ class OrcarmentoController {
     @Autowired
     private lateinit var orcamentoDao: OrcamentoRepository
 
-    @RequestMapping(value = ["info"], method = [RequestMethod.GET])
-    fun info(): String = "Api está rodando"
-
     @RequestMapping(value = ["orcamentos"], method = [RequestMethod.GET])
     fun getAll(): List<Orcamento> = orcamentoDao.findAll()
 
